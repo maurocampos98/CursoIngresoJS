@@ -1,13 +1,12 @@
 function mostrar()
-{
-	var i=0;
-	while( i < 10);
-	{
-		alert("aa");
 
-	i = i + 1 ;
+
+{ 
+	var cont=0;
+	while(cont<10){
+	cont++;
+	alert(cont);
 	}
-
 
 
 

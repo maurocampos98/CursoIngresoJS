@@ -1,14 +1,10 @@
 function mostrar()
 {
 
-    var numero = prompt("ingrese numero del 0 al 9");
-    
-        while (numero > 9){
-            alert ("dato invalido");
-            numero =prompt("ingrese numero nuevamente");
-        }
-        alert("numero valido")
+	var numero = prompt("ingrese un número entre 0 y 10.");
+while (numero > 9 || numero < 0){
+	numero=prompt("Número erróneo.")
 
-    
+}
 
 }//FIN DE LA FUNCIÓN

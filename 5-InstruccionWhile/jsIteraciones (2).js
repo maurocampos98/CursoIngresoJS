@@ -1,9 +1,9 @@
 function mostrar()
 {
-	var i = 10;
-	
-    while(i > 0){
-		console.log(i);
-		i--;
+	var cont=1;
+	while(cont <=10 ){
+	alert(11-cont);
+	cont++;
+
 	}
 }//FIN DE LA FUNCIÓN
