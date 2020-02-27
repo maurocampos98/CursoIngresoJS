@@ -1,9 +1,9 @@
 function mostrar()
 {
-   
-   for(var i=0; ; i++)
+   var contador=0
+   for(contador=0; ; contador++)
    {
-       alert=("No termina más");
+      document.write("No termina más" + "</br>");
       
        if(i==15)
        {

@@ -1,16 +1,22 @@
 function mostrar()
 {
     var contPares=0;
+
     var num;
+    var i;
     num=prompt("Ingrese un número:");
     num=parseInt(num);
 
-    for(var i=0 ; i<=num ; i++)
+    for(i=0 ; i<=num ; i++)
     {
-        if(1%2==00)
+        if(i%2==00)
         {
-            contPares++;
+            contPares++;  
+            document.write(i + "par " + "</br>");     
+            document.write(contPares + "cant de pares" + "</br>");  
+            
         }
+        
     }
 
 

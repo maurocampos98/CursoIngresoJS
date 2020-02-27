@@ -6,7 +6,7 @@ function mostrar()
      for(cont=0; numero > 0; cont--)
       {
           numero=numero-1;
-          alert(numero);
+          document.write(numero + "</br>");
       }
 
 
